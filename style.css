@@ -147,22 +147,15 @@ h2 {
 }
 
 h3 {
-  font-size: 1.7em;
-  font-weight: 800;
+  font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  text-shadow:3.5px 1.7px 1px blue;
+  text-shadow: 3.5px 1.7px 1px blue;
   margin-top: 5px;
   margin-bottom: 1px;
   text-align: center;
 }
 
-
-@media (min-width: 768px) {
-  h3 {
-    font-size: 2.5em;
-  }
-}
 /* My logo */
 .my-logo {
   position: absolute;
@@ -505,6 +498,7 @@ section {
 .panel-heading2:active,
 .panel-heading3:hover,
 .panel-heading3:active {
+  cursor: pointer;
   animation: shake 0.35s ease-in-out;
 }
 
